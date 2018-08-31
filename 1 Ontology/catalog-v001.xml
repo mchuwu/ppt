@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl" uri="file:/C:/Users/Mark.Jung/Documents/Ontology/bfo.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1535555002600" name="duplicate:http://purl.obolibrary.org/BIO/breast_implant_ontology_base.owl" uri="breast_implant_ontology_base.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1535555002600" name="duplicate:http://purl.obolibrary.org/BIO/breast_implant_ontology_base.owl" uri="test1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1535555002600" name="http://purl.obolibrary.org/BIO/breast_implant_ontology_base.owl/" uri="archived/test1.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1535555002600" name="http://purl.obolibrary.org/MDO/breast_implant_ontology_outer.owl" uri="archived/breast_implant_ontology_outer.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1535555002600" name="http://purl.obolibrary.org/MDO/breast_implants_ontology.owl" uri="archived/breast%20implants%20ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1535555002600" name="shadowed:http://purl.obolibrary.org/BIO/breast_implant_ontology_base.owl" uri="archived/breast_implant_ontology_base.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1535555002600" name="shadowed:http://purl.obolibrary.org/BIO/breast_implant_ontology_base.owl" uri="archived/bio_v2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1535555002600" name="shadowed:http://purl.obolibrary.org/BIO/breast_implant_ontology_base.owl" uri="archived/bio_v1.owl"/>
+    </group>
+</catalog>

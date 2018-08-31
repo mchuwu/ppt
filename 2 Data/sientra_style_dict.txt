@@ -1,0 +1,33 @@
+# CATALOG SOURCE - http://sientra.com/Content/pdfs/Product_Catalog_Breast_Implants_and_Tissue_Expanders.pdf
+# 
+# 
+# 
+{
+    "20610LP" : {"profile": "low profile"          , "filling": "HSC silicone gel filling"     , "shape": "round shape", "surface": "textured shell surface"},
+    "20621MP" : {"profile": "moderate plus profile", "filling": "HSC silicone gel filling"     , "shape": "round shape", "surface": "textured shell surface"},
+    "20621HP" : {"profile": "high profile"         , "filling": "HSC silicone gel filling"     , "shape": "round shape", "surface": "textured shell surface"},
+
+    "20645LP" : {"profile": "low profile"          , "filling": "HSC-plus silicone gel filling", "shape": "Shaped Oval Base shape", "surface": "textured shell surface"},
+    "20645MP" : {"profile": "moderate profile"     , "filling": "HSC-plus silicone gel filling", "shape": "Shaped Oval Base shape", "surface": "textured shell surface"},
+    "20645HP" : {"profile": "high profile"         , "filling": "HSC-plus silicone gel filling", "shape": "Shaped Oval Base shape", "surface": "textured shell surface"},
+
+    "20646RB": {"profile": "high profile"          , "filling": "HSC-plus silicone gel filling", "shape": "Shaped Round Base shape", "surface": "textured shell surface"},
+    "20676E" : {"profile": "high profile"          , "filling": "HSC-plus silicone gel filling", "shape": "Shaped Classic Base shape", "surface": "textured shell surface"},
+
+    "10610LP" : {"profile": "low profile"          , "filling": "HSC silicone gel filling"     , "shape": "round shape", "surface": "smooth shell surface"},
+    "10621MP" : {"profile": "moderate plus profile", "filling": "HSC silicone gel filling"     , "shape": "round shape", "surface": "smooth shell surface"},
+    "10721MP" : {"profile": "moderate plus profile", "filling": "HSC-plus silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "10621HP" : {"profile": "high profile"         , "filling": "HSC silicone gel filling"     , "shape": "round shape", "surface": "smooth shell surface"},
+    "10721HP" : {"profile": "high profile"         , "filling": "HSC-plus silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+
+    "10512MP" : {"profile": "moderate profile"     , "filling": "HSC silicone gel filling"     , "shape": "round shape", "surface": "smooth shell surface"},
+    "10512HP" : {"profile": "high profile"         , "filling": "HSC silicone gel filling"     , "shape": "round shape", "surface": "smooth shell surface"},
+
+    # NOT IN CATALOG(s), so I made educated guesses based on the AccessGUDID downloaded file - mark jung 7/9/2018
+    # AccessGUDID is also returning an Internal Server Error 500 when trying to access all Sientra Silcone Gel Breast Implants, so I cannot confirm much - mark jung 7/9/18
+    "20646MP" : {"profile": "moderate profile"     , "filling": "HSC-plus silicone gel filling"     , "shape": "Shaped Round Base shape"  , "surface": "textured shell surface"},
+    "20676HP" : {"profile": "high profile"         , "filling": "HSC-plus silicone gel filling"     , "shape": "Shaped Classic Base shape", "surface": "textured shell surface"},
+    "20721HP" : {"profile": "high profile"         , "filling": "HSC-plus silicone gel filling"     , "shape": "round shape"              , "surface": "textured shell surface"},
+    "20721MP" : {"profile": "moderate plus profile", "filling": "HSC-plus silicone gel filling"     , "shape": "round shape"              , "surface": "textured shell surface"},
+    "10521HP" : {"profile": "moderate high profile", "filling": "HSC-plus silicone gel filling"     , "shape": "round shape"              , "surface": "textured shell surface"}, # MOD HIGH???
+}

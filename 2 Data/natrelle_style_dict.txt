@@ -1,0 +1,69 @@
+# HELPFUL GUIDE: https://www.doctortaylor.com/allergan-natrelle-breast-implants-guide/
+#                https://www.sanfranciscobreast.com/_pdf/Allergan_Catalogue.pdf
+#                https://www.natrellesurgeon.com/Content/PDF/NAT64504_v2_170324ProductCatalog_FINAL_iPad_03.22.17.pdf
+#                https://www.allergan.com/miscellaneous-pages/allergan-pdf-files/m712-04_saline_dfu
+# NOTE: They differ on "style 45"; first link also calls midrange (catalog) "moderate-plus" which we use as well  - mark jung 7/9/2018
+{
+    "10" : {"profile": "moderate profile"      , "filling": "silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},              # SILICONE FILLED 
+    "15" : {"profile": "moderate-plus profile" , "filling": "silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "20" : {"profile": "high profile"          , "filling": "silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "40" : {"profile": "moderate profile"      , "filling": "silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},      
+    "45" : {"profile": "full profile"          , "filling": "silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "110": {"profile": "moderate profile"      , "filling": "silicone gel filling", "shape": "round shape", "surface": "BIOCELL textured shell surface"},      
+    "115": {"profile": "moderate-plus profile" , "filling": "silicone gel filling", "shape": "round shape", "surface": "BIOCELL textured shell surface"},
+    "120": {"profile": "high profile"          , "filling": "silicone gel filling", "shape": "round shape", "surface": "BIOCELL textured shell surface"},
+    
+    "FL" : {"profile": "low profile"           , "filling": "410 Highly Cohesive silicone gel filling", "shape": "Anatomical shape", "surface": "BIOCELL textured shell surface"},    # STYLE 410 HIGHLY COHESIVE MATRIX
+    "ML" : {"profile": "low profile"           , "filling": "410 Highly Cohesive silicone gel filling", "shape": "Anatomical shape", "surface": "BIOCELL textured shell surface"},    
+    "LL" : {"profile": "low profile"           , "filling": "410 Highly Cohesive silicone gel filling", "shape": "Anatomical shape", "surface": "BIOCELL textured shell surface"},    
+    "FM" : {"profile": "moderate profile"      , "filling": "410 Highly Cohesive silicone gel filling", "shape": "Anatomical shape", "surface": "BIOCELL textured shell surface"},   
+    "MM" : {"profile": "moderate profile"      , "filling": "410 Highly Cohesive silicone gel filling", "shape": "Anatomical shape", "surface": "BIOCELL textured shell surface"},     
+    "LM" : {"profile": "moderate profile"      , "filling": "410 Highly Cohesive silicone gel filling", "shape": "Anatomical shape", "surface": "BIOCELL textured shell surface"},    
+    "FF" : {"profile": "full profile"          , "filling": "410 Highly Cohesive silicone gel filling", "shape": "Anatomical shape", "surface": "BIOCELL textured shell surface"},      
+    "MF" : {"profile": "full profile"          , "filling": "410 Highly Cohesive silicone gel filling", "shape": "Anatomical shape", "surface": "BIOCELL textured shell surface"},    
+    "LF" : {"profile": "full profile"          , "filling": "410 Highly Cohesive silicone gel filling", "shape": "Anatomical shape", "surface": "BIOCELL textured shell surface"},
+    "FX" : {"profile": "extra-full profile"    , "filling": "410 Highly Cohesive silicone gel filling", "shape": "Anatomical shape", "surface": "BIOCELL textured shell surface"},
+    "MX" : {"profile": "extra-full profile"    , "filling": "410 Highly Cohesive silicone gel filling", "shape": "Anatomical shape", "surface": "BIOCELL textured shell surface"},
+    "LX" : {"profile": "extra-full profile"    , "filling": "410 Highly Cohesive silicone gel filling", "shape": "Anatomical shape", "surface": "BIOCELL textured shell surface"}, 
+                                                                                                                  
+    "SRX": {"profile": "extra-full profile"    , "filling": "INSPIRA Responsive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"}, # INSPIRA STYLES
+    "SCX": {"profile": "extra-full profile"    , "filling": "INSPIRA Cohesive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},   # SRX, SCX, SSX
+    "SSX": {"profile": "extra-full profile"    , "filling": "INSPIRA SoftTouch silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "SCF": {"profile": "full profile"          , "filling": "INSPIRA Cohesive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},   # SCF, SSF, SRF
+    "SSF": {"profile": "full profile"          , "filling": "INSPIRA SoftTouch silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "SRF": {"profile": "full profile"          , "filling": "INSPIRA Responsive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "SCM": {"profile": "moderate profile"      , "filling": "INSPIRA Cohesive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},   # SCM, SSM, SRM
+    "SSM": {"profile": "moderate profile"      , "filling": "INSPIRA SoftTouch silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "SRM": {"profile": "moderate profile"      , "filling": "INSPIRA Responsive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "SCL": {"profile": "low profile"           , "filling": "INSPIRA Cohesive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},   # SCL, SSL, SRL
+    "SSL": {"profile": "low profile"           , "filling": "INSPIRA SoftTouch silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "SRL": {"profile": "low profile"           , "filling": "INSPIRA Responsive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "SCLP":{"profile": "low-plus profile"      , "filling": "INSPIRA Cohesive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},   # SCLP, SSLP, SRLP
+    "SSLP":{"profile": "low-plus profile"      , "filling": "INSPIRA SoftTouch silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "SRLP":{"profile": "low-plus profile"      , "filling": "INSPIRA Responsive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "TCX": {"profile": "extra-full profile"    , "filling": "INSPIRA Cohesive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},   # TCX, TSX, TRX
+    "TSX": {"profile": "extra-full profile"    , "filling": "INSPIRA SoftTouch silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "TRX": {"profile": "extra-full profile"    , "filling": "INSPIRA Responsive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "TCF": {"profile": "full profile"          , "filling": "INSPIRA Cohesive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},   # TCF, TSF, TRF
+    "TSF": {"profile": "full profile"          , "filling": "INSPIRA SoftTouch silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "TRF": {"profile": "full profile"          , "filling": "INSPIRA Responsive silicone gel filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "TCM": {"profile": "moderate profile"      , "filling": "INSPIRA Cohesive silicone gel filling", "shape": "round shape", "surface": "textured shell surface"}, # TCM, TSM, TRM
+    "TSM": {"profile": "moderate profile"      , "filling": "INSPIRA SoftTouch silicone gel filling", "shape": "round shape", "surface": "textured shell surface"},
+    "TRM": {"profile": "moderate profile"      , "filling": "INSPIRA Responsive silicone gel filling", "shape": "round shape", "surface": "textured shell surface"},
+    "TCL": {"profile": "low profile"           , "filling": "INSPIRA Cohesive silicone gel filling", "shape": "round shape", "surface": "textured shell surface"}, # TCL, TSL, TRL
+    "TSL": {"profile": "low profile"           , "filling": "INSPIRA SoftTouch silicone gel filling", "shape": "round shape", "surface": "textured shell surface"},
+    "TRL": {"profile": "low profile"           , "filling": "INSPIRA Responsive silicone gel filling", "shape": "round shape", "surface": "textured shell surface"},
+    "TCLP":{"profile": "low-plus profile"      , "filling": "INSPIRA Cohesive silicone gel filling", "shape": "round shape", "surface": "textured shell surface"}, # TCLP, TSLP, TRLP
+    "TSLP":{"profile": "low-plus profile"      , "filling": "INSPIRA SoftTouch silicone gel filling", "shape": "round shape", "surface": "textured shell surface"},
+    "TRLP":{"profile": "low-plus profile"      , "filling": "INSPIRA Responsive silicone gel filling", "shape": "round shape", "surface": "textured shell surface"},
+
+    "68HP":{"profile": "high profile"          , "filling": "saline filling", "shape": "round shape", "surface": "smooth shell surface"},                    # SALINE FILLED
+    "68MP":{"profile": "moderate profile"      , "filling": "saline filling", "shape": "round shape", "surface": "smooth shell surface"},
+    "68":  {"profile": "moderate profile"      , "filling": "saline filling", "shape": "round shape", "surface": "smooth shell surface"},                    # Moderate profile is "default"
+    "68LP":{"profile": "low profile"           , "filling": "saline filling", "shape": "round shape", "surface": "smooth shell surface"},                    # 68 is how GUDID formats it
+
+    "468" :{"profile": "moderate profile"      , "filling": "saline filling", "shape": "round shape", "surface": "BIOCELL textured shell surface"},
+    "168" :{"profile": "moderate profile"      , "filling": "saline filling", "shape": "round shape", "surface": "BIOCELL textured shell surface"},
+    "163" :{"profile": "full profile"          , "filling": "saline filling", "shape": "round shape", "surface": "BIOCELL textured shell surface"},          ### Style 363 has a ptotic shape to match 
+    "363LF":{"profile": "full profile"         , "filling": "saline filling", "shape": "round shape", "surface": "BIOCELL textured shell surface"},            ### an existing breast in unilateral reconstruction.
+}

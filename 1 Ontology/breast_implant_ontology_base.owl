@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<rdf:RDF xml:base="http://purl.obolibrary.org/BIO/breast_implant_ontology_base.owl"
+         xmlns="http://purl.obolibrary.org/BIO/breast_implant_ontology_base.owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:core="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owlr="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
+
+<owl:Ontology rdf:about="http://purl.obolibrary.org/BIO/breast_implant_ontology_base.owl"/>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/breast_implant_device">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <core:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breast implants are medical devices that are implanted under the breast tissue or under the chest muscle to increase breast size (augmentation) or to rebuild breast tissue after mastectomy or other damage to the breast (reconstruction). They are also used in revision surgeries, which correct or improve the result of an original surgery.</core:definition>
+  <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fda.gov/medicaldevices/productsandmedicalprocedures/implantsandprosthetics/breastimplants/default.htm</rdfs:isDefinedBy>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/breast_implant_filling">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/breast_implant_manufacturer">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/breast_implant_product_code">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/breast_implant_profile">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/fda_medical_device_submission">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/fda_pma_submission">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/BIO/fda_medical_device_submission"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/fda_pma_submission_supplement">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/BIO/fda_medical_device_submission"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/breast_implant_shape">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/breast_implant_shell">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/breast_implant_shell_surface">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/breast_implant_style">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/saline_filling">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_filling"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/silicone_gel_filling">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_filling"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/round_shape">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_shape"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/non_round_shape">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_shape"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/silicone_shell">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_shell"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/smooth_shell_surface">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_shell_surface"/>
+</owl:Class>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/devicePublishDate"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/deviceDescription"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/gudidLink"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaLink"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/gmdnPTName"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/gmdnPTDefinition"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaApprovalOrderStatement"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaGenericName"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaSupplementType"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaSupplementReason"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaTradeName"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaApplicant"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaApplicantAddress"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaDateRecieved"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaDecisionDate"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaDecisionCode"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaReviewGranted"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaAdvisoryCommitee"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaDocketNumber"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/pmaFedRegNoticeDate"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skos:altLabel</rdfs:label>
+  <owlr:python_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alt_label</owlr:python_name>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skos:definition</rdfs:label>
+  <owlr:python_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</owlr:python_name>
+</owl:AnnotationProperty>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/silicone_gel_filled_breast_implant">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://purl.obolibrary.org/BIO/has_filling"/>
+          <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/BIO/silicone_gel_filling"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/saline_filled_breast_implant">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://purl.obolibrary.org/BIO/has_filling"/>
+          <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/BIO/saline_filling"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/smooth_breast_implant">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://purl.obolibrary.org/BIO/has_shell_surface"/>
+          <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/BIO/smooth_shell_surface"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/textured_breast_implant">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://purl.obolibrary.org/BIO/has_shell_surface"/>
+          <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/BIO/textured_shell_surface"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/BIO/textured_shell_surface">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_shell_surface"/>
+</owl:Class>
+
+<owl:ObjectProperty rdf:about="http://purl.obolibrary.org/BIO/has_filling">
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_filling"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://purl.obolibrary.org/BIO/has_manufacturer">
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_manufacturer"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://purl.obolibrary.org/BIO/has_profile">
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_profile"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://purl.obolibrary.org/BIO/has_shape">
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_shape"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://purl.obolibrary.org/BIO/has_shell">
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_shell"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://purl.obolibrary.org/BIO/has_shell_surface">
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_shell_surface"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://purl.obolibrary.org/BIO/has_product_code">
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_product_code"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://purl.obolibrary.org/BIO/has_subject_device">
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/BIO/fda_pma_submission"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://purl.obolibrary.org/BIO/is_subject_device_of">
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/BIO/fda_pma_submission"/>
+  <owl:inverseOf rdf:resource="http://purl.obolibrary.org/BIO/has_subject_device"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://purl.obolibrary.org/BIO/is_mentioned_in">
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/BIO/fda_pma_submission_supplement"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://purl.obolibrary.org/BIO/mentions">
+  <rdfs:domain rdf:resource="http://purl.obolibrary.org/BIO/fda_pma_submission_supplement"/>
+  <rdfs:range rdf:resource="http://purl.obolibrary.org/BIO/breast_implant_device"/>
+  <owl:inverseOf rdf:resource="http://purl.obolibrary.org/BIO/is_mentioned_in"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/BIO/has_diameter">
+  <rdfs:range>
+    <rdfs:Datatype>
+      <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+      <owl:withRestrictions>
+        <rdf:Description>
+          <rdf:first>
+            <rdf:Description>
+              <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</xsd:minExclusive>
+            </rdf:Description>
+          </rdf:first>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </owl:withRestrictions>
+    </rdfs:Datatype>
+  </rdfs:range>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/BIO/has_fill_volume"/>
+
+<owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/BIO/has_height"/>
+
+<owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/BIO/has_projection"/>
+
+<owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/BIO/has_width"/>
+
+<owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/BIO/has_nominal_fill_volume">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/BIO/has_fill_volume"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/BIO/has_max_fill_volume">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/BIO/has_fill_volume"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/BIO/has_nominal_projection">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/BIO/has_projection"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/BIO/has_max_projection">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/BIO/has_projection"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/BIO/has_nominal_diameter">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/BIO/has_diameter"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/BIO/has_max_diameter">
+  <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/BIO/has_diameter"/>
+</owl:DatatypeProperty>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/catalogNumber"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/deviceID"/>
+
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/BIO/versionModelNumber"/>
+
+
+</rdf:RDF>
